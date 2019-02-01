@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2047
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ecan.WaterUseAlerts.Web", "Ecan.WaterUseAlerts.Web\Ecan.WaterUseAlerts.Web.csproj", "{CF5DDE34-0761-4AA3-92EC-F7C8845206A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ecan.WaterUseAlerts.BLL", "Ecan.WaterUseAlerts.BLL\Ecan.WaterUseAlerts.BLL.csproj", "{28784813-300C-4A5E-9C9B-0AEA293C83E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ecan.WaterUseAlerts.Global", "Ecan.WaterUseAlerts.Global\Ecan.WaterUseAlerts.Global.csproj", "{C7523255-B100-4A05-8A86-8FCDC7D4C0E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ecan.WaterUseAlerts.DAL", "Ecan.WaterUseAlerts.DAL\Ecan.WaterUseAlerts.DAL.csproj", "{324E9D22-3B33-4BCB-B6DE-A2CC06AFE8EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ecan.WaterUseAlerts.LoadFile", "Ecan.WaterUseAlerts.LoadFile\Ecan.WaterUseAlerts.LoadFile.csproj", "{73380109-5AEA-4230-B03A-C7FC418F8C23}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF5DDE34-0761-4AA3-92EC-F7C8845206A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF5DDE34-0761-4AA3-92EC-F7C8845206A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF5DDE34-0761-4AA3-92EC-F7C8845206A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF5DDE34-0761-4AA3-92EC-F7C8845206A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28784813-300C-4A5E-9C9B-0AEA293C83E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28784813-300C-4A5E-9C9B-0AEA293C83E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28784813-300C-4A5E-9C9B-0AEA293C83E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28784813-300C-4A5E-9C9B-0AEA293C83E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7523255-B100-4A05-8A86-8FCDC7D4C0E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7523255-B100-4A05-8A86-8FCDC7D4C0E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7523255-B100-4A05-8A86-8FCDC7D4C0E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7523255-B100-4A05-8A86-8FCDC7D4C0E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{324E9D22-3B33-4BCB-B6DE-A2CC06AFE8EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{324E9D22-3B33-4BCB-B6DE-A2CC06AFE8EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{324E9D22-3B33-4BCB-B6DE-A2CC06AFE8EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{324E9D22-3B33-4BCB-B6DE-A2CC06AFE8EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73380109-5AEA-4230-B03A-C7FC418F8C23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73380109-5AEA-4230-B03A-C7FC418F8C23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73380109-5AEA-4230-B03A-C7FC418F8C23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73380109-5AEA-4230-B03A-C7FC418F8C23}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4A55638E-4908-4E1F-BF50-E8B8C8B8E334}
+	EndGlobalSection
+EndGlobal

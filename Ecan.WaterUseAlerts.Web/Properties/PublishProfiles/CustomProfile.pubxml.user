@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>\\webapptest01\websites\Ecan.WaterUseAlerts</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="Alerts.aspx">
+      <publishTime>01/29/2019 15:51:14</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>02/22/2013 08:43:40</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.pdb">
+      <publishTime>02/22/2013 08:43:40</publishTime>
+    </File>
+    <File Include="bin/AspNet.ScriptManager.jQuery.dll">
+      <publishTime>09/21/2012 09:35:38</publishTime>
+    </File>
+    <File Include="bin/AspNet.ScriptManager.jQuery.UI.Combined.dll">
+      <publishTime>03/10/2012 20:54:06</publishTime>
+    </File>
+    <File Include="bin/DotNetOpenAuth.AspNet.dll">
+      <publishTime>11/28/2012 03:03:28</publishTime>
+    </File>
+    <File Include="bin/DotNetOpenAuth.Core.dll">
+      <publishTime>11/28/2012 03:03:28</publishTime>
+    </File>
+    <File Include="bin/DotNetOpenAuth.OAuth.Consumer.dll">
+      <publishTime>11/28/2012 03:03:34</publishTime>
+    </File>
+    <File Include="bin/DotNetOpenAuth.OAuth.dll">
+      <publishTime>11/28/2012 03:03:34</publishTime>
+    </File>
+    <File Include="bin/DotNetOpenAuth.OpenId.dll">
+      <publishTime>11/28/2012 03:03:36</publishTime>
+    </File>
+    <File Include="bin/DotNetOpenAuth.OpenId.RelyingParty.dll">
+      <publishTime>11/28/2012 03:03:38</publishTime>
+    </File>
+    <File Include="bin/Ecan.Integration.Nav.Web.dll">
+      <publishTime>02/01/2019 17:11:53</publishTime>
+    </File>
+    <File Include="bin/Ecan.Integration.Nav.Web.pdb">
+      <publishTime>02/01/2019 17:11:53</publishTime>
+    </File>
+    <File Include="bin/Ecan.WaterUseAlerts.BLL.dll">
+      <publishTime>02/01/2019 17:11:48</publishTime>
+    </File>
+    <File Include="bin/Ecan.WaterUseAlerts.BLL.pdb">
+      <publishTime>02/01/2019 17:11:48</publishTime>
+    </File>
+    <File Include="bin/Ecan.WaterUseAlerts.DAL.dll">
+      <publishTime>02/01/2019 15:09:50</publishTime>
+    </File>
+    <File Include="bin/Ecan.WaterUseAlerts.DAL.pdb">
+      <publishTime>02/01/2019 15:09:50</publishTime>
+    </File>
+    <File Include="bin/Ecan.WaterUserAlerts.Global.dll">
+      <publishTime>02/01/2019 15:09:49</publishTime>
+    </File>
+    <File Include="bin/Ecan.WaterUserAlerts.Global.pdb">
+      <publishTime>02/01/2019 15:09:49</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>08/08/2012 18:00:50</publishTime>
+    </File>
+    <File Include="bin/log4net.dll">
+      <publishTime>03/08/2017 19:26:22</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.FriendlyUrls.dll">
+      <publishTime>02/13/2013 11:28:16</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Membership.OpenAuth.dll">
+      <publishTime>12/02/2013 17:49:32</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Web.Optimization.WebForms.dll">
+      <publishTime>11/02/2014 15:26:04</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.EnterpriseLibrary.Common.dll">
+      <publishTime>04/16/2010 13:16:58</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.EnterpriseLibrary.Common.pdb">
+      <publishTime>04/16/2010 13:11:48</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.EnterpriseLibrary.Data.dll">
+      <publishTime>04/16/2010 13:16:58</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.EnterpriseLibrary.Data.pdb">
+      <publishTime>04/16/2010 13:11:56</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.ServiceLocation.dll">
+      <publishTime>04/16/2010 13:16:58</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.ServiceLocation.pdb">
+      <publishTime>04/16/2010 12:42:32</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.Unity.dll">
+      <publishTime>04/16/2010 12:42:32</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.Unity.Interception.dll">
+      <publishTime>04/16/2010 12:42:32</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.Unity.Interception.pdb">
+      <publishTime>04/16/2010 12:42:32</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.Unity.pdb">
+      <publishTime>04/16/2010 12:42:32</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ScriptManager.MSAjax.dll">
+      <publishTime>09/08/2012 10:31:14</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ScriptManager.WebForms.dll">
+      <publishTime>09/08/2012 10:31:22</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>07/25/2012 11:48:56</publishTime>
+    </File>
+    <File Include="bin/Mono.Math.dll">
+      <publishTime>11/28/2012 03:03:36</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>04/25/2013 15:40:12</publishTime>
+    </File>
+    <File Include="bin/Org.Mentalis.Security.Cryptography.dll">
+      <publishTime>11/28/2012 03:03:36</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>11/02/2014 15:26:04</publishTime>
+    </File>
+    <File Include="bin/System.Web.Providers.dll">
+      <publishTime>08/14/2012 14:50:14</publishTime>
+    </File>
+    <File Include="bin/Web.config">
+      <publishTime>02/01/2019 12:29:55</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>07/17/2013 17:03:52</publishTime>
+    </File>
+    <File Include="Bundle.config">
+      <publishTime>12/21/2018 08:08:11</publishTime>
+    </File>
+    <File Include="Content/images/black-asc.gif">
+      <publishTime>12/21/2018 08:08:14</publishTime>
+    </File>
+    <File Include="Content/images/black-desc.gif">
+      <publishTime>12/21/2018 08:08:14</publishTime>
+    </File>
+    <File Include="Content/images/black-unsorted.gif">
+      <publishTime>12/21/2018 08:08:14</publishTime>
+    </File>
+    <File Include="Content/images/dropbox-asc-hovered.png">
+      <publishTime>12/21/2018 08:08:14</publishTime>
+    </File>
+    <File Include="Content/images/dropbox-asc.png">
+      <publishTime>12/21/2018 08:08:14</publishTime>
+    </File>
+    <File Include="Content/images/dropbox-desc-hovered.png">
+      <publishTime>12/21/2018 08:08:14</publishTime>
+    </File>
+    <File Include="Content/images/dropbox-desc.png">
+      <publishTime>12/21/2018 08:08:14</publishTime>
+    </File>
+    <File Include="Content/images/green-asc.gif">
+      <publishTime>12/21/2018 08:08:14</publishTime>
+    </File>
+    <File Include="Content/images/green-desc.gif">
+      <publishTime>12/21/2018 08:08:14</publishTime>
+    </File>
+    <File Include="Content/images/green-header.gif">
+      <publishTime>12/21/2018 08:08:14</publishTime>
+    </File>
+    <File Include="Content/images/green-unsorted.gif">
+      <publishTime>12/21/2018 08:08:14</publishTime>
+    </File>
+    <File Include="Content/images/ice-asc.gif">
+      <publishTime>12/21/2018 08:08:14</publishTime>
+    </File>
+    <File Include="Content/images/ice-desc.gif">
+      <publishTime>12/21/2018 08:08:14</publishTime>
+    </File>
+    <File Include="Content/images/ice-unsorted.gif">
+      <publishTime>12/21/2018 08:08:14</publishTime>
+    </File>
+    <File Include="Content/images/white-asc.gif">
+      <publishTime>12/21/2018 08:08:14</publishTime>
+    </File>
+    <File Include="Content/images/white-desc.gif">
+      <publishTime>12/21/2018 08:08:14</publishTime>
+    </File>
+    <File Include="Content/images/white-unsorted.gif">
+      <publishTime>12/21/2018 08:08:14</publishTime>
+    </File>
+    <File Include="Content/jquery-ui-1.8.2-redmond.css">
+      <publishTime>12/21/2018 08:08:14</publishTime>
+    </File>
+    <File Include="Content/Site.css">
+      <publishTime>12/21/2018 08:08:13</publishTime>
+    </File>
+    <File Include="Content/Site_OLD.css">
+      <publishTime>12/21/2018 08:08:13</publishTime>
+    </File>
+    <File Include="Content/theme.blue.css">
+      <publishTime>12/21/2018 08:08:14</publishTime>
+    </File>
+    <File Include="Content/theme.default.css">
+      <publishTime>12/21/2018 08:08:14</publishTime>
+    </File>
+    <File Include="Content/theme.dropbox.css">
+      <publishTime>12/21/2018 08:08:14</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>12/21/2018 08:08:12</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>12/21/2018 14:06:11</publishTime>
+    </File>
+    <File Include="HelloWorld.aspx">
+      <publishTime>01/15/2019 10:47:04</publishTime>
+    </File>
+    <File Include="Images/accent.png">
+      <publishTime>12/21/2018 08:08:15</publishTime>
+    </File>
+    <File Include="Images/bullet.png">
+      <publishTime>12/21/2018 08:08:16</publishTime>
+    </File>
+    <File Include="Images/heroAccent.png">
+      <publishTime>12/21/2018 08:08:16</publishTime>
+    </File>
+    <File Include="Images/loader.gif">
+      <publishTime>12/21/2018 08:08:16</publishTime>
+    </File>
+    <File Include="Images/orderedList0.png">
+      <publishTime>12/21/2018 08:08:16</publishTime>
+    </File>
+    <File Include="Images/orderedList1.png">
+      <publishTime>12/21/2018 08:08:16</publishTime>
+    </File>
+    <File Include="Images/orderedList2.png">
+      <publishTime>12/21/2018 08:08:16</publishTime>
+    </File>
+    <File Include="Images/orderedList3.png">
+      <publishTime>12/21/2018 08:08:16</publishTime>
+    </File>
+    <File Include="Images/orderedList4.png">
+      <publishTime>12/21/2018 08:08:16</publishTime>
+    </File>
+    <File Include="Images/orderedList5.png">
+      <publishTime>12/21/2018 08:08:16</publishTime>
+    </File>
+    <File Include="Images/orderedList6.png">
+      <publishTime>12/21/2018 08:08:16</publishTime>
+    </File>
+    <File Include="Images/orderedList7.png">
+      <publishTime>12/21/2018 08:08:16</publishTime>
+    </File>
+    <File Include="Images/orderedList8.png">
+      <publishTime>12/21/2018 08:08:16</publishTime>
+    </File>
+    <File Include="Images/orderedList9.png">
+      <publishTime>12/21/2018 08:08:16</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>01/15/2019 13:43:49</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.8.2.js">
+      <publishTime>12/21/2018 08:08:16</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.8.2.min.js">
+      <publishTime>12/21/2018 08:08:16</publishTime>
+    </File>
+    <File Include="Scripts/jquery-ui-1.8.24.js">
+      <publishTime>12/21/2018 08:08:16</publishTime>
+    </File>
+    <File Include="Scripts/jquery-ui-1.8.24.min.js">
+      <publishTime>12/21/2018 08:08:16</publishTime>
+    </File>
+    <File Include="Scripts/jquery.tablesorter.js">
+      <publishTime>12/21/2018 08:08:17</publishTime>
+    </File>
+    <File Include="Scripts/jquery.tablesorter.widgets.js">
+      <publishTime>12/21/2018 08:08:17</publishTime>
+    </File>
+    <File Include="Scripts/modernizr-2.6.2.js">
+      <publishTime>12/21/2018 08:08:17</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/DetailsView.js">
+      <publishTime>12/21/2018 08:08:17</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/Focus.js">
+      <publishTime>12/21/2018 08:08:17</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/GridView.js">
+      <publishTime>12/21/2018 08:08:17</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/Menu.js">
+      <publishTime>12/21/2018 08:08:17</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MenuStandards.js">
+      <publishTime>12/21/2018 08:08:17</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjax.js">
+      <publishTime>12/21/2018 08:08:18</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxApplicationServices.js">
+      <publishTime>12/21/2018 08:08:18</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxComponentModel.js">
+      <publishTime>12/21/2018 08:08:18</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxCore.js">
+      <publishTime>12/21/2018 08:08:18</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxGlobalization.js">
+      <publishTime>12/21/2018 08:08:18</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxHistory.js">
+      <publishTime>12/21/2018 08:08:18</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxNetwork.js">
+      <publishTime>12/21/2018 08:08:18</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxSerialization.js">
+      <publishTime>12/21/2018 08:08:19</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxTimer.js">
+      <publishTime>12/21/2018 08:08:19</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxWebForms.js">
+      <publishTime>12/21/2018 08:08:19</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxWebServices.js">
+      <publishTime>12/21/2018 08:08:19</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/SmartNav.js">
+      <publishTime>12/21/2018 08:08:17</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/TreeView.js">
+      <publishTime>12/21/2018 08:08:17</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/WebForms.js">
+      <publishTime>12/21/2018 08:08:18</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/WebParts.js">
+      <publishTime>12/21/2018 08:08:18</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/WebUIValidation.js">
+      <publishTime>12/21/2018 08:08:18</publishTime>
+    </File>
+    <File Include="Scripts/_references.js">
+      <publishTime>12/21/2018 08:08:16</publishTime>
+    </File>
+    <File Include="Site.Master">
+      <publishTime>01/15/2019 13:48:41</publishTime>
+    </File>
+    <File Include="Site.Mobile.Master">
+      <publishTime>12/21/2018 12:52:47</publishTime>
+    </File>
+    <File Include="TestForm.aspx">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="ViewSwitcher.ascx">
+      <publishTime>12/21/2018 12:52:47</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>02/01/2019 12:29:55</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

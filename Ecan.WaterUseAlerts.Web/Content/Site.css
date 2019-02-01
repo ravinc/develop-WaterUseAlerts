@@ -1,0 +1,1241 @@
+﻿body
+{
+	background-color: #647279;
+	font-size: .75em;
+	font-family: Verdana, Helvetica, Sans-Serif;
+	margin: 0;
+	padding: 0;
+	color: #292929;
+}
+
+a:link
+{
+	color: #034af3;
+	text-decoration: underline;
+}
+a:visited
+{
+	color: #505abc;
+}
+a:hover
+{
+	color: #1d60ff;
+	text-decoration: none;
+}
+a:active
+{
+	color: #12eb87;
+}
+
+p, ul
+{
+	margin-bottom: 20px;
+	line-height: 1.6em;
+}
+
+/* HEADINGS   
+----------------------------------------------------------*/
+h1, h2, h3, h4, h5, h6
+{
+	font-size: 1.5em;
+	color: #2583B2;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+h1
+{
+	font-size: 2em;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+h2
+{
+	font-size: 1.6em;
+	color: #2583B2;
+	border-bottom: solid 2px #2583B2;
+	padding: 5px 5px 2px 5px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+h3
+{
+	font-size: 1em;
+	color: #2583B2;
+	border-bottom: solid 1px #2583B2;
+	padding: 5px 5px 2px 5px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+h4
+{
+	font-size: 1.2em;
+}
+h5, h6
+{
+	font-size: 1em;
+}
+
+/* this rule styles <h2> tags that are the 
+first child of the left and right table columns */
+.rightColumn > h1, .rightColumn > h2, .leftColumn > h1, .leftColumn > h2
+{
+	margin-top: 0;
+}
+
+/* PRIMARY LAYOUT ELEMENTS   
+----------------------------------------------------------*/
+
+/* you can specify a greater or lesser percentage for the 
+page width. Or, you can specify an exact pixel width. */
+.page
+{
+	/*width: 90%; 	margin-left: auto; 	margin-right: auto;*/
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 50px;
+	margin-right: 50px;
+	background-color: #F0F0F6;
+	background-image: url(SiteCSSImages/wrapper-bg.png);
+	background-repeat: repeat-x;
+	background-attachment: fixed;
+	background-position: inherit 50%;
+	min-height: 600px;
+}
+
+.popPage
+{
+	/*width: 90%; 	margin-left: auto; 	margin-right: auto;*/
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: #E2EAF6;
+	background-image: url(SiteCSSImages/wrapper-bg.png);
+	background-repeat: repeat-x;
+	background-attachment: fixed;
+	background-position: inherit 50%;
+	min-height: 450px;
+}
+
+#header
+{
+	position: relative;
+	margin-bottom: 0px;
+	color: #000;
+	padding: 0;
+	height: 40px;
+}
+
+#header h1
+{
+	padding: 5px 0;
+	margin-right: 2em;
+	margin-top: 10px;
+	margin-left: 0.8em;
+	border: none;
+	line-height: 2em;
+	color: #616e74;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	overflow: hidden;
+}
+
+#main
+{
+	padding: 30px 30px 15px 30px;
+	margin-bottom: 30px;
+	_height: 1px; /* only IE6 applies CSS properties starting with an underscrore */
+}
+
+#footer
+{
+	color: #fff; 
+	padding: 10px 0;
+	text-align: center;
+	line-height: normal;
+	margin: 0;
+	font-size: .8em;
+}
+
+#footer a:link
+{
+	color: #fff;
+	text-decoration: underline;
+}
+#footer a:visited
+{
+	color: Silver;
+}
+#footer a:hover
+{
+	color: #1d60ff;
+	text-decoration: none;
+}
+#footer a:active
+{
+	color: #fff;
+}
+
+.inner
+{
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* TAB MENU   
+----------------------------------------------------------*/
+#menucontainer
+{
+	background: url('SiteCSSImages/main-nav-bg.png') #0f6693 repeat-x;
+	height: 37px;
+	margin-top: 60px;
+}
+
+ul#menu
+{
+	padding-right: 0px;
+	padding-left: 0px;
+	font-size: 1em;
+	font-weight: bold;
+	padding-bottom: 0px;
+	margin: 0px;
+	padding-top: 10px;
+	list-style-type: none;
+	text-align: center;
+}
+
+ul#menu li
+{
+	display: inline;
+	list-style: none;
+}
+
+ul#menu li#greeting
+{
+	padding: 10px 20px;
+	font-weight: bold;
+	text-decoration: none;
+	line-height: 2.8em;
+	color: #fff;
+}
+
+ul#menu li a
+{
+	margin-top: 60px;
+	background: url('SiteCSSImages/main-nav-bg.png') #0f6693 repeat-x;
+	height: 37px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 13px;
+	color: #fff;
+	text-decoration: none;
+}
+
+ul#menu li a:hover
+{
+	text-decoration: underline;
+}
+
+ul#menu li a:active
+{
+	background-color: #a6e2a6;
+	text-decoration: none;
+}
+
+ul#menu li.selected a
+{
+	background-color: #fff;
+	color: #000;
+}
+
+/* TAB SUB MENU   
+----------------------------------------------------------*/
+#submenucontainer
+{
+	background: url('SiteCSSImages/breadcrumb-bg.png') #0f6693 repeat-x;
+	margin: -30px -30px 0px -30px;
+	height: 32px;
+}
+
+ul#submenu
+{
+	padding-right: 0px;
+	padding-left: 0px;
+	font-size: 1em;
+	font-weight: bold;
+	padding-bottom: 0px;
+	margin: 0px;
+	padding-top: 8px;
+	list-style-type: none;
+	text-align: center;
+}
+
+ul#submenu li
+{
+	display: inline;
+	list-style: none;
+}
+
+ul#submenu li#greeting
+{
+	padding: 10px 20px;
+	font-weight: bold;
+	text-decoration: none;
+	line-height: 2.8em;
+	color: #fff;
+}
+
+ul#submenu li a
+{
+	margin-top: 60px;
+	background: url('SiteCSSImages/breadcrumb-bg.png') #0f6693 repeat-x;
+	height: 32px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 8px;
+	color: #000000;
+	text-decoration: none;
+}
+
+ul#submenu li a:hover
+{
+	text-decoration: underline;
+}
+
+ul#submenu li a:active
+{
+	background-color: #a6e2a6;
+	text-decoration: none;
+}
+
+ul#submenu li.selected a
+{
+	background-color: #000000;
+	color: #fff;
+}
+
+/* FORM LAYOUT ELEMENTS   
+----------------------------------------------------------*/
+
+fieldset
+{
+	margin: 0.5em 0;
+	padding: 1em;
+	border: 1px solid #CCC;
+    background-color: #f8f8f8;
+}
+
+fieldset p
+{
+	margin: 2px 5px 5px 5px;
+}
+
+fieldset label
+{
+	display: block;
+	font-weight: bold;
+}
+
+fieldset label.inline
+{
+	display: inline;
+}
+
+fieldset #recordsummary
+{
+	float: right;
+	width: 300px;
+	padding: 1em;
+	border: 1px solid #CCC;
+}
+
+legend
+{
+	font-size: 1.1em;
+	font-weight: 600;
+	padding: 2px 5px 5px 5px;
+	color: #2583B2;
+}
+
+input[type="text"]
+{
+	width: 300px;
+	border: 1px solid #CCC;
+}
+
+input[type="password"]
+{
+	width: 300px;
+	border: 1px solid #CCC;
+}
+
+input[disabled='disabled']
+{
+	width: 300px;
+	border: 0px solid #CCC;
+}
+
+.inputbox {
+	width: 300px;
+	border: 1px solid #034af3;
+}
+
+select
+{
+	width: 300px;
+	border: 1px solid #CCC;
+}
+
+textarea
+{
+	width: 300px;
+	border: 1px solid #CCC;
+	font-family: Verdana, Helvetica, Sans-Serif;
+}
+
+textarea .longedit
+{
+	width: 300px;
+	height: 50px;
+}
+
+/* TABLE
+----------------------------------------------------------*/
+
+table
+{
+	border: solid 1px #e8eef4;
+	border-collapse: collapse;
+	font-family: arial;
+	background-color: #F0F0F6;
+	margin: 5px 0pt 5px;
+	font-size: 8pt;
+	text-align: left;
+}
+
+table tbody td
+{
+	color: #3D3D3D;
+	padding: 4px;
+	background-color: #FFF;
+	vertical-align: top; 
+	
+	border-top-color: #e6EEEE;
+    border-top-style: solid;
+    border-top-width: 1px;
+}
+
+table th
+{
+	text-align: left;
+	background-color: #e6EEEE;
+	border: 1px solid #FFF;
+	font-size: 8pt;
+	padding: 4px;
+}
+
+table tr.alternate
+{
+	background-color: #BBCDDB; /* #e8eef4; */
+}
+
+table tr.highlight
+{
+	color: #fff;
+	background-color: #2581B1;
+	font-weight: bold;
+}
+
+.highlight
+{
+	color: #fff;
+	background-color: #2581B1;
+	font-weight: bold;
+}
+
+.hideInputRow 
+{ 
+	display: none; 
+}
+
+.showInputRow 
+{ 
+	display: table-row; 
+}
+
+.slim
+{
+	margin: 0px;
+	padding: 0px;
+	border: none;
+}
+
+.slim td
+{
+	padding: 1px;
+	border: none;
+}
+
+tr.overdue td
+{
+	color: white !important;
+	background-color: #2581B1 !important;
+	font-weight: bold;
+}
+
+tr.overdue td a
+{
+	color: white !important;
+}
+
+/* MAIN PAGE MENU   
+----------------------------------------------------------*/
+
+.pagemenu
+{
+	float: left;
+	padding: 10px;
+	width: 300px;
+}
+
+.homenews
+{
+	float: left;
+	padding: 10px;
+	width: 350px;
+	min-height: 600px;
+}
+
+.homeuser
+{
+	float: right;
+	padding: 10px;
+	width: 350px;
+	min-height: 600px;
+}
+
+.menuarrangement
+{
+	width: 50%;
+	float: left;
+}
+
+.menuarrangementColumn
+{
+	padding: 10px;
+}
+
+
+/* MISC  
+----------------------------------------------------------*/
+.clear
+{
+	clear: both;
+}
+
+.error
+{
+	color: Red;
+	font-weight: bold;
+}
+
+div#title
+{
+	display: block;
+	float: left;
+	text-align: left;
+}
+
+#logindisplay
+{
+	font-size: 1.1em;
+	display: block;
+	text-align: right;
+	margin: 10px;
+	color: #2583B2;
+}
+
+#logindisplay a:link
+{
+	color: #2583B2;
+	text-decoration: underline;
+}
+
+#logindisplay a:visited
+{
+	color: #2583B2;
+	text-decoration: underline;
+}
+
+#logindisplay a:hover
+{
+	color: #616e74;
+	text-decoration: none;
+}
+
+.field-validation-error
+{
+	color: #ff0000;
+}
+
+.input-validation-error
+{
+	border: 1px solid #ff0000;
+	background-color: #ffeeee;
+}
+
+.validation-summary-errors
+{
+	font-weight: bold;
+	color: #ff0000;
+}
+
+.smallnote
+{
+	font-size: 0.7em;
+	font-style: italic;
+}
+
+.tripRead
+{
+    font-size: 10pt;
+}
+
+.tripHdr
+{
+    font-weight: bold;
+    width: 160px;
+}
+
+.tripWrite
+{
+    font-weight: bold;
+}
+
+.tripInput
+{
+    width: 310px;
+}
+
+.enhance
+{
+    font-weight: bold !important;
+    font-size: 10pt !important;
+    background-color: #FFFF99 !important;
+}
+
+.hide
+{
+	display: none; 
+}
+
+/* LOGO
+----------------------------------------------------------*/
+#logo
+{
+	margin-top: 15px;
+	margin-left: 5px;
+	width: 207px;
+	height: 62px;
+	float: left;
+}
+
+#logo A
+{
+	margin-top: 5px;
+	margin-left: 5px;
+	display: block;
+	background: url(SiteCSSImages/ecan-logo.png) #fff no-repeat left top;
+	width: 207px;
+	text-indent: -9999px;
+	height: 62px;
+}
+
+#logo A:hover
+{
+	margin-top: 5px;
+	margin-left: 5px;
+	display: block;
+	background: url(SiteCSSImages/ecan-logo.png) #fff no-repeat left bottom;
+	width: 207px;
+	text-indent: -9999px;
+	height: 62px;
+}
+
+/* NETWORK HEADER
+----------------------------------------------------------*/
+#network
+{
+	background: #e9f0f4;
+	border-bottom: #d8e1e6 2px solid;
+}
+
+#network UL
+{
+	padding-right: 0px;
+	padding-left: 0px;
+	font-size: 0.8em;
+	padding-bottom: 6px;
+	margin: 0px;
+	color: #616e74;
+	padding-top: 6px;
+	list-style-type: none;
+	text-align: center;
+}
+
+#network UL LI
+{
+	display: inline;
+}
+
+#network UL LI A
+{
+	border-right: #d8e1e6 1px solid;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-bottom: 5px;
+	color: #616e74;
+	padding-top: 5px;
+	text-decoration: none;
+}
+
+#network UL LI:first-child
+{
+	border-right: #d8e1e6 1px solid;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-bottom: 4px;
+	color: #616e74;
+	padding-top: 7px;
+	text-decoration: none;
+}
+
+#network UL LI A:hover
+{
+	background: #d8e1e6;
+	color: #49555a;
+	text-decoration: underline;
+}
+
+/* SEARCH BOX
+----------------------------------------------------------*/
+
+#search-box
+{
+	width: 408px;
+	height: 46px;
+	background: #FFF url('SiteCSSImages/search-box.png') no-repeat;
+	float: right;
+	margin-top: -125px;
+	margin-right: -22px;
+}
+
+#search-box .sbox
+{
+	float: left;
+	padding: 0;
+	margin: 15px 0 0 15px;
+	border: 0;
+	width: 300px;
+	background: none;
+	font-size: 0.9em;
+	color: #777;
+}
+
+#search-box .go
+{
+	float: right;
+	margin: 14px 8px 0 0;
+	width: 68px;
+	height: 17px;
+	background-image: url('SiteCSSImages/search-button.png');
+	background-color: #FFFFFF;
+	border-style: none;
+	text-indent: -9999px;
+	font-size: 0px;
+	display: block;
+	line-height: 0px;
+	cursor: pointer;
+}
+
+/* SEARCH PAGE STYLES 
+----------------------------------------------------------*/
+
+#search-container
+{
+	float: left;
+	margin: 0px 5px 5px 0px;
+	width: 300px;
+}
+
+#search-container .sbox
+{
+	padding: 0;
+	width: 200px; /*margin-left:5px;*/
+	margin-top: 5px;
+	margin-bottom: 5px;
+	color: #777;
+}
+
+#working
+{
+	width: 100%;
+	height: 60px;
+	text-align: center;
+}
+
+/* FIND BOX
+----------------------------------------------------------*/
+
+#find-container
+{
+	position: absolute;
+	float: right;
+	top: 60px;
+	right: 55px; /*margin-top: -185px; 	margin-right: -25px;*/
+}
+
+#find-box
+{
+	width: 408px;
+	height: 46px;
+	background: #FFF url('SiteCSSImages/search-box.png') no-repeat;
+}
+
+#find-box .sbox
+{
+	float: left;
+	padding: 0;
+	margin: 15px 0 0 15px;
+	border: 0;
+	width: 300px;
+	background: none;
+	font-size: 0.9em;
+	color: #777;
+}
+
+#find-box .go
+{
+	float: right;
+	margin: 14px 8px 0 0;
+	width: 68px;
+	height: 17px;
+	background-image: url('SiteCSSImages/search-button.png');
+	background-color: #FFFFFF;
+	border-style: none;
+	text-indent: -9999px;
+	font-size: 0px;
+	display: block;
+	line-height: 0px;
+	cursor: pointer;
+}
+
+#find-options
+{
+	float: left;
+	font-size: 0.8em;
+}
+
+/* FAVOURITE CONTROLS
+----------------------------------------------------------*/
+#favourite-container
+{
+	position: absolute;
+	float: right;
+	top: 30px;
+	right: 310px;
+	font-size: 1.1em;
+	display: block;
+	text-align: right;
+	margin: 10px;
+	color: #2583B2;
+}
+
+#favourite-container a:link
+{
+	color: #2583B2;
+	text-decoration: underline;
+}
+
+#favourite-container a:visited
+{
+	color: #2583B2;
+	text-decoration: underline;
+}
+
+#favourite-container a:hover
+{
+	color: #616e74;
+	text-decoration: none;
+}
+
+/* MAP CONTROLS
+----------------------------------------------------------*/
+
+.zoominIcon
+{
+	background-image: url(ButtonImages/nav_zoomin.png);
+	width: 16px;
+	height: 16px;
+}
+.zoomoutIcon
+{
+	background-image: url(ButtonImages/nav_zoomout.png);
+	width: 16px;
+	height: 16px;
+}
+.zoomfullextIcon
+{
+	background-image: url(ButtonImages/nav_fullextent.png);
+	width: 16px;
+	height: 16px;
+}
+.zoomprevIcon
+{
+	background-image: url(ButtonImages/nav_previous.png);
+	width: 16px;
+	height: 16px;
+}
+.zoomnextIcon
+{
+	background-image: url(ButtonImages/nav_next.png);
+	width: 16px;
+	height: 16px;
+}
+.panIcon
+{
+	background-image: url(ButtonImages/nav_pan.png);
+	width: 16px;
+	height: 16px;
+}
+.deactivateIcon
+{
+	background-image: url(ButtonImages/nav_decline.png);
+	width: 16px;
+	height: 16px;
+}
+.mapAerialIcon
+{
+	background-image: url(ButtonImages/map_aerial.png);
+	width: 16px;
+	height: 16px;
+}
+.mapTopoIcon
+{
+	background-image: url(ButtonImages/map_topo.png);
+	width: 16px;
+	height: 16px;
+}
+.mapTopoCadastral
+{
+	background-image: url(ButtonImages/HomeHS.png);
+	width: 16px;
+	height: 16px;
+}
+.mapSITIcon
+{
+	background-image: url(ButtonImages/SIT.png);
+	width: 16px;
+	height: 16px;
+}
+.mapACTIcon
+{
+	background-image: url(ButtonImages/ACT.png);
+	width: 16px;
+	height: 16px;
+}
+.mapINVIcon
+{
+	background-image: url(ButtonImages/INV.png);
+	width: 16px;
+	height: 16px;
+}
+.mapENQIcon
+{
+	background-image: url(ButtonImages/ENQ.png);
+	width: 16px;
+	height: 16px;
+}
+.mapCOMIcon
+{
+	background-image: url(ButtonImages/COM.png);
+	width: 16px;
+	height: 16px;
+}
+.mapLLURBASEIcon
+{
+	background-image: url(ButtonImages/BASE.png);
+	width: 16px;
+	height: 16px;
+}
+.mapResultsIcon
+{
+	background-image: url(ButtonImages/TableHS.png);
+	width: 16px;
+	height: 16px;
+}
+.mapToggleInfo
+{
+	background-image: url(ButtonImages/TextboxHS.png);
+	width: 16px;
+	height: 16px;
+}
+
+.mapLineMeasureIcon
+{
+	background-image: url(ButtonImages/L_measure.png);
+	width: 16px;
+	height: 16px;
+}
+.mapIdentifyIcon
+{
+	background-image: url(ButtonImages/info.png);
+	width: 16px;
+	height: 16px;
+}
+
+.mapNatresIcon
+{
+	background-image: url(ButtonImages/water-drop-icon.png);
+	width: 16px;
+	height: 16px;
+}
+.mapConsentsIcon
+{
+	background-image: url(ButtonImages/water-drop-icon.png);
+	width: 16px;
+	height: 16px;
+}
+
+.draw_freeline
+{
+	background-image: url(ButtonImages/draw_freeline.png);
+	width: 40px;
+	height: 40px;
+}
+
+.draw_freepoly
+{
+	background-image: url(ButtonImages/draw_freepoly.png);
+	width: 40px;
+	height: 40px;
+}
+.draw_line
+{
+	background-image: url(ButtonImages/draw_line.png);
+	width: 40px;
+	height: 40px;
+}
+.draw_poly
+{
+	background-image: url(ButtonImages/draw_poly.png);
+	width: 40px;
+	height: 40px;
+}
+.draw_rect
+{
+	background-image: url(ButtonImages/draw_rect.png);
+	width: 30px;
+	height: 30px;
+}
+.draw_clear
+{
+	background-image: url(ButtonImages/clear.png);
+	width: 40px;
+	height: 40px;
+}
+.draw_point
+{
+	background-image: url(ButtonImages/draw_point.png);
+	width: 40px;
+	height: 40px;
+}
+.dialog_toggle
+{
+	background-image: url(ButtonImages/dialog_toggle.png);
+	width: 40px;
+	height: 40px;
+}
+.dialog_find
+{
+	background-image: url(ButtonImages/dialog_find.png);
+	width: 40px;
+	height: 40px;
+}
+.dialog_createrec
+{
+	background-image: url(ButtonImages/dialog_createrec.png);
+	width: 40px;
+	height: 40px;
+}
+.dialog_zoomto
+{
+	background-image: url(ButtonImages/dialog_zoomto.png);
+	width: 40px;
+	height: 40px;
+}
+
+/*  DETAILS VIEW - GLOBAL
+----------------------------------------------------------
+    
+
+.DataDetails{
+float: left;width:25%;
+}
+*/
+
+/* MAP DETAILS 
+----------------------------------------------------------*/
+
+/*
+#map
+{
+    float: right;width:75%;
+}
+
+they changed their minds again.
+*/
+
+#mapDiv
+{
+	height: 500px;
+	width: 100%;
+}
+#mapScale
+{
+	float: right;
+}
+#mapCoords
+{
+	float: left;
+}
+
+/* SLIGHTLY ENHANCED, UNIVERSAL CLEARFIX HACK 
+----------------------------------------------------------*/
+.clearfix:after
+{
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+.clearfix
+{
+	display: inline-block;
+}
+/* start commented backslash hack \*/
+* html .clearfix
+{
+	height: 1%;
+}
+.clearfix
+{
+	display: block;
+}
+/* close commented backslash hack */
+
+/* toggle icons for active etc*/
+
+.inactiveicon
+{
+	filter: Alpha(Opacity=50); /* for ie piece of krap browser */
+	opacity: 0.5;
+}
+
+/*  TOOLBAR COLORS  
+
+sit new dojo.Color([255, 167, 122, 0.35]), 1), new dojo.Color([255, 211, 127, 0.35]));
+act dojo.Color([0, 0, 255, 0.35]), 1), new dojo.Color([0, 125, 0, 0.35]));
+inv new dojo.Color([0, 0, 0, 0]), 2), new dojo.Color([0, 0, 0, 0.35]));
+enq new dojo.Color([255, 167, 122, 0.35]), 1), new dojo.Color([255, 211, 127, 0.35]));
+com new dojo.Color([255, 167, 122, 0.35]), 1), new dojo.Color([255, 211, 127, 0.35]));
+
+*/
+
+#toggleSites
+{
+	background-color: rgb(255,211,127);
+}
+#toggleActivities
+{
+	background-color: rgb(0,125,0);
+}
+#toggleInvestigations
+{
+}
+#toggleEnquiries
+{
+	background-color: rgb(255,211,127);
+}
+#toggleCommunications
+{
+	background-color: rgb(255,167,122);
+}
+
+
+/*   
+
+TABLE HIGHLIGHTING FROM TABLE SORTER
+
+*/
+
+table.tablesorter
+{
+	font-family: arial;
+	background-color: #CDCDCD;
+	margin: 5px 0pt 5px;
+	font-size: 8pt;
+	width: 100%;
+	text-align: left;
+}
+table.tablesorter thead tr th, table.tablesorter tfoot tr th
+{
+	background-color: #e6EEEE;
+	border: 1px solid #FFF;
+	font-size: 8pt;
+	padding: 4px;
+}
+table.tablesorter thead tr .header
+{
+	background-image: url(Images/bg.gif);
+	background-repeat: no-repeat;
+	background-position: center right;
+	cursor: pointer;
+}
+table.tablesorter tbody td
+{
+	color: #3D3D3D;
+	padding: 4px;
+	background-color: #FFF;
+	vertical-align: top;
+}
+table.tablesorter tbody tr.odd td
+{
+	background-color: #F0F0F6;
+}
+table.tablesorter thead tr .headerSortUp
+{
+	background-image: url(Images/asc.gif);
+}
+table.tablesorter thead tr .headerSortDown
+{
+	background-image: url(Images/desc.gif);
+}
+table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSortUp
+{
+	background-color: #e6EEEE;
+}
+table.tablesorter td.overdue
+{
+	color: Red;
+	font-weight: bold;
+}
+table.tablesorter tr.highlight
+{
+	color: White;
+	background: Navy;
+	font-weight: bold;
+}
+
